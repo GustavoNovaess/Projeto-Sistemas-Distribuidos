@@ -1,0 +1,2 @@
+cat ./out.txt
+echo 
