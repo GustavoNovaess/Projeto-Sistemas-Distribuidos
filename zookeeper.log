@@ -14982,3 +14982,88 @@ java.lang.IllegalArgumentException: Unable to canonicalize address hostPort:2181
 2021-07-29 12:17:43,490 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090018 after 3ms
 2021-07-29 12:17:44,814 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090017 after 5ms
 2021-07-29 12:17:46,164 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090017 after 4ms
+2021-07-29 12:54:09,694 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf, built on 03/06/2019 16:18 GMT
+2021-07-29 12:54:09,716 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=DESKTOP-9KTUNCD
+2021-07-29 12:54:09,721 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.8.0_301
+2021-07-29 12:54:09,725 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2021-07-29 12:54:09,733 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=C:\Program Files\Java\jdk1.8.0_301\jre
+2021-07-29 12:54:09,735 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=.;C:\Users\Elaine\Desktop\zookeper\zookeeper-3.4.14.jar;C:\Users\Elaine\Desktop\zookeper\lib\slf4j-log4j12-1.7.25.jar;C:\Users\Elaine\Desktop\zookeper\lib\slf4j-api-1.7.25.jar;C:\Users\Elaine\Desktop\zookeper\lib\log4j-1.2.17.jar
+2021-07-29 12:54:09,739 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_301\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_301\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\ProgramData\UNIVALI\Portugol Studio;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Ghdl\Bin;C:\MinGW\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Elaine\AppData\Local\Microsoft\WindowsApps;;C:\Users\Elaine\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Elaine\AppData\Roaming\npm;.
+2021-07-29 12:54:09,742 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=C:\Users\Elaine\AppData\Local\Temp\
+2021-07-29 12:54:09,743 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2021-07-29 12:54:09,745 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Windows 10
+2021-07-29 12:54:09,746 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2021-07-29 12:54:09,747 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=10.0
+2021-07-29 12:54:09,748 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=Elaine
+2021-07-29 12:54:09,749 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=C:\Users\Elaine
+2021-07-29 12:54:09,750 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=C:\Users\Elaine\Desktop\zookeper\Codigos
+2021-07-29 12:54:09,755 [myid:] - INFO  [main:ZooKeeper@442] - Initiating client connection, connectString=localhost sessionTimeout=3000 watcher=Executor@5a10411
+2021-07-29 12:54:09,777 [myid:] - DEBUG [main:ClientCnxn@118] - zookeeper.disableAutoWatchReset is false
+2021-07-29 12:54:10,667 [myid:] - DEBUG [main-SendThread(localhost:2181):SaslServerPrincipal@74] - Canonicalized address to localhost
+2021-07-29 12:54:10,671 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1025] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-07-29 12:54:10,679 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@879] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2021-07-29 12:54:10,683 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@952] - Session establishment request sent on localhost/0:0:0:0:0:0:0:1:2181
+2021-07-29 12:54:10,794 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x100003670090021, negotiated timeout = 4000
+2021-07-29 12:54:10,824 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@846] - Reading reply sessionid:0x100003670090021, packet:: clientPath:/teste serverPath:/teste finished:false header:: 1,3  replyHeader:: 1,212,0  request:: '/teste,T  response:: s{2,193,1627426159716,1627571862058,27,1,0,0,11,1,3} 
+2021-07-29 12:54:10,840 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@846] - Reading reply sessionid:0x100003670090021, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,212,0  request:: '/teste,F  response:: #4f692c2074642062656d3f,s{2,193,1627426159716,1627571862058,27,1,0,0,11,1,3} 
+2021-07-29 12:54:12,191 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090021 after 5ms
+2021-07-29 12:54:13,530 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090021 after 2ms
+2021-07-29 12:54:14,879 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090021 after 3ms
+2021-07-29 12:54:16,228 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090021 after 3ms
+2021-07-29 12:54:17,564 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090021 after 2ms
+2021-07-29 12:54:18,075 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf, built on 03/06/2019 16:18 GMT
+2021-07-29 12:54:18,090 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=DESKTOP-9KTUNCD
+2021-07-29 12:54:18,094 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.8.0_301
+2021-07-29 12:54:18,097 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2021-07-29 12:54:18,105 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=C:\Program Files\Java\jdk1.8.0_301\jre
+2021-07-29 12:54:18,107 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=.;C:\Users\Elaine\Desktop\zookeper\zookeeper-3.4.14.jar;C:\Users\Elaine\Desktop\zookeper\lib\slf4j-log4j12-1.7.25.jar;C:\Users\Elaine\Desktop\zookeper\lib\slf4j-api-1.7.25.jar;C:\Users\Elaine\Desktop\zookeper\lib\log4j-1.2.17.jar
+2021-07-29 12:54:18,108 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_301\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_301\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\ProgramData\UNIVALI\Portugol Studio;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Ghdl\Bin;C:\MinGW\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Elaine\AppData\Local\Microsoft\WindowsApps;;C:\Users\Elaine\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Elaine\AppData\Roaming\npm;.
+2021-07-29 12:54:18,110 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=C:\Users\Elaine\AppData\Local\Temp\
+2021-07-29 12:54:18,111 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2021-07-29 12:54:18,113 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Windows 10
+2021-07-29 12:54:18,120 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2021-07-29 12:54:18,121 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=10.0
+2021-07-29 12:54:18,122 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=Elaine
+2021-07-29 12:54:18,123 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=C:\Users\Elaine
+2021-07-29 12:54:18,124 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=C:\Users\Elaine\Desktop\zookeper\Codigos
+2021-07-29 12:54:18,130 [myid:] - INFO  [main:ZooKeeper@442] - Initiating client connection, connectString=localhost sessionTimeout=3000 watcher=Executor@5a10411
+2021-07-29 12:54:18,150 [myid:] - DEBUG [main:ClientCnxn@118] - zookeeper.disableAutoWatchReset is false
+2021-07-29 12:54:18,914 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090021 after 1ms
+2021-07-29 12:54:19,090 [myid:] - DEBUG [main-SendThread(localhost:2181):SaslServerPrincipal@74] - Canonicalized address to localhost
+2021-07-29 12:54:19,097 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1025] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-07-29 12:54:19,105 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@879] - Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session
+2021-07-29 12:54:19,110 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@952] - Session establishment request sent on localhost/0:0:0:0:0:0:0:1:2181
+2021-07-29 12:54:19,170 [myid:] - INFO  [main-SendThread(localhost:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x100003670090022, negotiated timeout = 4000
+2021-07-29 12:54:19,193 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@846] - Reading reply sessionid:0x100003670090022, packet:: clientPath:/teste serverPath:/teste finished:false header:: 1,3  replyHeader:: 1,213,0  request:: '/teste,T  response:: s{2,193,1627426159716,1627571862058,27,1,0,0,11,1,3} 
+2021-07-29 12:54:19,205 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@846] - Reading reply sessionid:0x100003670090022, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,213,0  request:: '/teste,F  response:: #4f692c2074642062656d3f,s{2,193,1627426159716,1627571862058,27,1,0,0,11,1,3} 
+2021-07-29 12:54:20,251 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090021 after 5ms
+2021-07-29 12:54:20,593 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090022 after 48ms
+2021-07-29 12:54:20,594 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@846] - Reading reply sessionid:0x100003670090021, packet:: clientPath:null serverPath:null finished:false header:: 3,1  replyHeader:: 3,214,-110  request:: '/teste,#64617461,v{s{31,s{'world,'anyone}}},0  response::  
+2021-07-29 12:54:21,873 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090021 after 6ms
+2021-07-29 12:54:21,888 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090022 after 4ms
+2021-07-29 12:54:23,220 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@846] - Reading reply sessionid:0x100003670090022, packet:: clientPath:null serverPath:null finished:false header:: 3,1  replyHeader:: 3,215,-110  request:: '/teste,#64617461,v{s{31,s{'world,'anyone}}},0  response::  
+2021-07-29 12:54:23,223 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090022 after 171ms
+2021-07-29 12:54:23,224 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090021 after 5ms
+2021-07-29 12:54:24,400 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090022 after 3ms
+2021-07-29 12:54:24,560 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090021 after 5ms
+2021-07-29 12:54:25,741 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090022 after 5ms
+2021-07-29 12:54:25,900 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090021 after 6ms
+2021-07-29 12:54:27,080 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090022 after 6ms
+2021-07-29 12:54:27,237 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090021 after 5ms
+2021-07-29 12:54:27,853 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@846] - Reading reply sessionid:0x100003670090021, packet:: clientPath:null serverPath:null finished:false header:: 4,3  replyHeader:: 4,215,0  request:: '/teste,T  response:: s{2,193,1627426159716,1627571862058,27,1,0,0,11,1,3} 
+2021-07-29 12:54:27,947 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@769] - Got notification sessionid:0x100003670090021
+2021-07-29 12:54:27,948 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@769] - Got notification sessionid:0x100003670090022
+2021-07-29 12:54:27,956 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@791] - Got WatchedEvent state:SyncConnected type:NodeDataChanged path:/teste for sessionid 0x100003670090021
+2021-07-29 12:54:27,957 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@791] - Got WatchedEvent state:SyncConnected type:NodeDataChanged path:/teste for sessionid 0x100003670090022
+2021-07-29 12:54:27,969 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@846] - Reading reply sessionid:0x100003670090021, packet:: clientPath:null serverPath:null finished:false header:: 5,5  replyHeader:: 5,216,0  request:: '/teste,#4f69,27  response:: s{2,216,1627426159716,1627574067858,28,1,0,0,2,1,3} 
+2021-07-29 12:54:27,975 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@846] - Reading reply sessionid:0x100003670090022, packet:: clientPath:/teste serverPath:/teste finished:false header:: 4,3  replyHeader:: 4,216,0  request:: '/teste,T  response:: s{2,216,1627426159716,1627574067858,28,1,0,0,2,1,3} 
+2021-07-29 12:54:27,977 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@846] - Reading reply sessionid:0x100003670090021, packet:: clientPath:/teste serverPath:/teste finished:false header:: 6,3  replyHeader:: 6,216,0  request:: '/teste,T  response:: s{2,216,1627426159716,1627574067858,28,1,0,0,2,1,3} 
+2021-07-29 12:54:27,984 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@846] - Reading reply sessionid:0x100003670090022, packet:: clientPath:null serverPath:null finished:false header:: 5,4  replyHeader:: 5,216,0  request:: '/teste,F  response:: #4f69,s{2,216,1627426159716,1627574067858,28,1,0,0,2,1,3} 
+2021-07-29 12:54:27,987 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@846] - Reading reply sessionid:0x100003670090021, packet:: clientPath:null serverPath:null finished:false header:: 7,4  replyHeader:: 7,216,0  request:: '/teste,F  response:: #4f69,s{2,216,1627426159716,1627574067858,28,1,0,0,2,1,3} 
+2021-07-29 12:54:29,336 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090021 after 6ms
+2021-07-29 12:54:29,339 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090022 after 9ms
+2021-07-29 12:54:30,671 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090022 after 2ms
+2021-07-29 12:54:30,671 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090021 after 2ms
+2021-07-29 12:54:32,016 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090022 after 6ms
+2021-07-29 12:54:32,022 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090021 after 12ms
+2021-07-29 12:54:33,371 [myid:] - DEBUG [main-SendThread(localhost:2181):ClientCnxn$SendThread@745] - Got ping response for sessionid: 0x100003670090022 after 6ms
