@@ -1,3 +1,4 @@
+package main;
 
 /**
  * A simple example program to use DataMonitor to start and
@@ -21,6 +22,7 @@ import org.apache.zookeeper.Watcher;
 import org.apache.zookeeper.ZooKeeper;
 import org.apache.zookeeper.ZooDefs;
 import org.apache.zookeeper.CreateMode;
+import main.LeaderElector;
 
 public class Executor implements Watcher, Runnable, DataMonitor.DataMonitorListener {
 	String znode;
@@ -29,7 +31,7 @@ public class Executor implements Watcher, Runnable, DataMonitor.DataMonitorListe
 
 	DataMonitor dm;
 
-	ZooKeeper zk;
+	static ZooKeeper zk;
 
 	String filename;
 
@@ -53,13 +55,13 @@ public class Executor implements Watcher, Runnable, DataMonitor.DataMonitorListe
 	 * @throws InterruptedException
 	 */
 	public static void main(String[] args) throws KeeperException, IOException, InterruptedException {
-		Scanner entrada = new Scanner(System.in);
 		if (args.length < 4) {
 			System.err.println("USAGE: Executor hostPort znode filename program [args ...]");
 			System.exit(2);
 		}
+
 		String hostPort = args[0];
-		String znode = args[1];
+		String znode = "/chat/new";
 		String filename = args[2];
 		String exec[] = new String[args.length - 3];
 		String path, pathvariable;
@@ -71,13 +73,18 @@ public class Executor implements Watcher, Runnable, DataMonitor.DataMonitorListe
 		String sentence = "";
 
 		sentence = inFromUser.readLine();
-		pathvariable = "/" + sentence;
-		byte[] data = "data".getBytes();
+		pathvariable = znode;
 
+		LeaderElector eleitor = new LeaderElector(pathvariable);
+		String[] args2 = {pathvariable};
+		eleitor.leaderElection(args2);
+
+		byte[] data = sentence.getBytes();
+	
 		try {
 			executor.create(pathvariable, data);
 		} catch (Exception e) {
-			System.out.println("\nEntrando no nó\n");
+			System.out.println("\nEntrando no nÃ³\n");
 		}
 
 		System.out.println("Chat:\n");
@@ -85,7 +92,7 @@ public class Executor implements Watcher, Runnable, DataMonitor.DataMonitorListe
 		while (!sentence.equals("quit")) {
 			sentence = inFromUser.readLine();
 			if(sentence.equals("get")) {
-				//executor.getData(pathvariable);
+				executor.getData(pathvariable);
 				
 			} else {
 				data = sentence.getBytes();
